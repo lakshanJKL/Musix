@@ -1,0 +1,57 @@
+.navi{
+
+background-color: rgb(255, 255, 255);
+margin-left: 435px;
+margin-top: 40px;
+width: 345px;
+height: 40px;
+border-radius: 20px;
+padding-bottom: 25px;
+}
+
+
+/*range between buttons and backgrounds*/
+.space{
+ margin-left: 60px;
+ padding-top: 10px;
+}
+
+/*home,music & info buttons*/
+.btn {
+
+position: relative;
+margin-left:7px;
+background-color: #20D7F0;
+border-radius: 10px;
+border-color: #f1f1f1;
+font-size: 16px;
+font-weight:bold;
+color: #FFFFFF;
+height: 45px;
+width: 65px;
+text-align: center;
+transition-duration: 0.4s;
+text-decoration: none;
+overflow: hidden;
+cursor: pointer;
+}
+  
+.btn:after {
+content: "";
+background: #f1f1f1;
+display: block;
+position: absolute;
+padding-top: 300%;
+padding-left: 350%;
+margin-left: -20px !important;
+margin-top: -120%;
+opacity: 0;
+transition: all 0.8s
+}
+  
+.btn:active:after {
+padding: 0;
+margin: 0;
+opacity: 1;
+transition: 0s
+}

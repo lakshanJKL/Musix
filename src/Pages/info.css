@@ -1,0 +1,75 @@
+.info{
+background-image:url("D:\React JS\React JS projects\music_plus\src\Pages\images\green.jpeg");  
+background-repeat: no-repeat; 
+border-radius: 40px;    
+margin: 30px 330px 200px 250px;
+padding-bottom: 27px;   
+
+}
+
+/*white transparent background*/
+.bg{
+background-color: rgba(240, 248, 255, 0.144);
+color: aliceblue;
+margin: 10px 70px 2px 70px;
+padding: 0px 100px 0px 20px;
+}
+
+.container{
+
+display:flex;
+align-items: center;
+}
+
+/*musix text (info page)*/
+.text{
+
+position :relative;
+animation: mymove 3s;/*add animation*/
+animation-fill-mode: forwards;   
+font-size: 50px;   
+color: aliceblue;
+margin-top: 0px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-left: 80px;  
+text-shadow:0 0 3px #FF0000, 0 0 5px #0000FF;     
+}
+
+
+.text2{
+
+ margin-top:5px;  
+padding-top: 40px;  
+}
+
+.text3{
+
+padding-top: 2px;
+padding-bottom: 150px;
+}
+
+.textz{
+
+margin-top:2px;
+padding-top: 40px;
+padding-bottom: 30px;
+
+}
+
+/*facebook,twitter & instagram icons*/
+.icon{
+
+margin-top: 10px;
+margin-left: 2px;
+padding-bottom: 0px;
+height: 45px;
+width: 45px;
+}
+
+.iconfb{
+   
+margin-top: 33px;
+height: 45px;
+width: 45px;
+}

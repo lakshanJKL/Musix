@@ -1,0 +1,128 @@
+.home{
+background-image:url("D:\React JS\React JS projects\music_plus\src\Pages\images\green.jpeg");  
+background-repeat: no-repeat;  
+border-radius: 40px;    
+margin: 30px 330px 150px 250px;
+padding-bottom: 0px;
+  
+}
+
+/* background animation */
+@keyframes mymove {
+    from {top: -22px;}
+    to {top: 0px;}
+}
+
+.container{
+    
+ display: flex;
+ align-items: center;  
+ padding-top: 10px; 
+ /*animation part*/
+ position :relative;
+ animation: mymove 3s;
+ animation-fill-mode: forwards;   
+}
+
+/* MusiX text*/
+.text1{
+
+ font-size: 60px; 
+ color: aliceblue;
+ padding-top: 50px;
+ padding-bottom: 10px;
+ margin-left: 75px; 
+ text-shadow:0 0 3px #FF0000, 0 0 5px #0000FF;
+ /*animation part*/
+ position :relative;
+ animation: mymove 3s;
+ animation-fill-mode: forwards;
+    
+}
+
+/* blue color vertical box */
+.vbox{
+margin-left: 50px;
+opacity: 72%;
+margin-bottom: 0px;
+padding-top: 5px;
+padding-bottom: 0px;
+width: 140px;
+height: 328px;
+background-color: rgb(11, 177, 229); 
+ /*animation part*/   
+position :relative;
+animation: mymove 3s;
+animation-fill-mode: forwards;     
+}
+
+
+/* Five white vertical lines*/
+.verline1{
+ 
+width:5px;
+height: 20px;
+margin-left: 50px;
+margin-top: 168px;
+padding-top:00px;
+background-color:rgb(255, 255, 255)    
+}
+
+.verline2{
+  
+width:5px;
+height: 35px;
+margin-left: 10px;
+margin-top: 151px;
+padding-top:0px;
+background-color:rgb(255, 255, 255)
+}
+
+.verline3{
+    
+width:5px;
+height: 0px;
+margin-left: 10px;
+margin-top: 175px;
+padding-top:10px;
+background-color:rgb(255, 255, 255)
+}
+
+.verline4{
+   
+width:5px;
+height: 55px;
+margin-left: 10px;
+margin-top: 130px;
+padding-top:0px;
+background-color:rgb(255, 255, 255) 
+}
+
+.verline5{
+ 
+width:5px;
+height: 210px;
+margin-left: 10px;
+margin-bottom: 25px;
+background-color:rgb(255, 255, 255)
+}
+
+
+/*Music text*/
+.textz1{
+margin-top: 25px;
+font-size: 35px;   
+color: rgb(255, 255, 255);
+}
+
+/*Brings text*/
+.textz2{
+font-size: 75px;   
+color: rgb(255, 255, 255);   
+}
+
+/*Pleasure text*/
+.textz3{
+font-size: 45px;   
+color: rgb(255, 255, 255);
+}

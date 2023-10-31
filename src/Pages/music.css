@@ -1,0 +1,49 @@
+.music{
+
+background-image:url("D:\React JS\React JS projects\music_plus\src\Pages\images\green.jpeg");  
+background-repeat: no-repeat; 
+border-radius: 40px;    
+margin: 30px 347px 20px 250px;
+padding-bottom: 26px;   
+}
+
+
+/*blue transparent background*/
+.bgi{
+
+background-color: #20d8f025;   
+padding-right: 40px;
+padding-bottom: 25px;
+padding-left: 0px;
+margin-left: 30px;
+margin-top: 50px;
+border-radius: 15px;
+
+}
+
+.container{
+
+display:flex;
+align-items: center;
+margin-top: 0px;
+margin-bottom:0px;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-left: 0px;
+padding-left: 0px;
+}
+
+/* white color vertical line*/
+.verline{
+
+width:5px;
+height: 210px;
+margin-left: 2px;
+margin-bottom: 25px;
+background-color:rgb(255, 255, 255)    
+}
+
+/*playlist.jsx component*/
+.plist{
+margin-left: 75px;   
+}
